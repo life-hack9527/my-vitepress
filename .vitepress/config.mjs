@@ -20,7 +20,7 @@ export default defineConfig({
         { text: '民商法规', link: '/markdown-examples' }
       ] },
       { text: '制度建设', link: '/about' },
-      ]
+      ],
 
     sidebar: [
       {
