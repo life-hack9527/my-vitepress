@@ -8,7 +8,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "王总的知识库", // 站点首页标题
-    logo: "logo.svg",  // 站点 logo
+    logo: "konwledge.svg",  // 站点 logo
     nav: [
       { text: 'Home', link: '/' },
       { text: '经验分享', items:[
