@@ -9,16 +9,25 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+      { text: '经验分享', items:[
+        { text: '会计核算', link: '/markdown-examples' },
+        { text: '税务管理', link: '/markdown-examples' },
+        { text: '资金管理', link: '/markdown-examples' }
+      ] },
+      { text: '法律法规', items:[
+        { text: '会计法规', link: '/markdown-examples' },
+        { text: '税收法律', link: '/markdown-examples' },
+        { text: '民商法规', link: '/markdown-examples' }
+      ] },
+      { text: '制度建设', link: '/about' },
+      ]
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '企业会计准则',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
+          { text: '企业会计准则第1号-存货', link: 'docs\法律法规\企业会计准则\企业会计准则第1号——存货.md' },
+            ]
       }
     ],
 
