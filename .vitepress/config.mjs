@@ -28,7 +28,7 @@ export default defineConfig({
       {
         text: '企业会计准则',
         items: [
-          { text: '企业会计准则第1号-存货', link: 'docs\法律法规\企业会计准则\企业会计准则第1号——存货.md' },
+          { text: '企业会计准则第1号-存货', link: 'docs/法律法规/企业会计准则/企业会计准则第1号——存货.md' },
             ]
       }
     ],
